@@ -285,9 +285,9 @@ img{
   background: var(--fon-color);
     }
  
-    .logo{
-      margin-bottom: 20px;
-    }
+   .footer-section-text {
+     margin-top: 20px;
+   }
   .footer-section-text{
     padding-left: 0;
   }
