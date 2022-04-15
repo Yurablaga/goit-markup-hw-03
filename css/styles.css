@@ -17,8 +17,7 @@ body {
   list-style: none;
 }
 .header{
-  border-bottom: 1px;
-  border-bottom: solid;
+  border-bottom: 1px solid #ececec;
   background-color: var(--brand-text-color);
 }
 .container{
@@ -235,6 +234,7 @@ img{
 }
 
 .section-title {
+  text-transform: uppercase;
   text-transform: lowercase;
   margin-bottom: 10px;
   font-weight: 700;
@@ -284,10 +284,10 @@ img{
   padding-bottom: 60px;
   background: var(--fon-color);
     }
- 
-   .footer-section-text {
-     margin-top: 20px;
-   }
+ .address{
+   margin-bottom: 20px;
+ }
+   
   .footer-section-text{
     padding-left: 0;
   }
@@ -411,4 +411,7 @@ ul{
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
